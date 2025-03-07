@@ -32,8 +32,9 @@ ul li{
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px dashed black;
 }
 
 .wrapper {
@@ -42,47 +43,47 @@ ul li{
     min-height: 100vh;
 }
 
-.section-header1 {
+.section-header {
     background-color: #ADD8E7;
-    height: 300px;
+    height: 450px;
     align-items: flex-start;
 }
 
-.section-header2 {
+.page-header2 {
     margin-top: 10px;
-    align-items: flex-end;
-    background-color: blue;
-    height: 247px;
+    justify-content: center;
+    align-content: center;
+    background-color: #00018B;
+    height: 395px;
 }
 
-.page-header {
+.page-header1 > .container{
     display: flex;
     justify-content: space-between;
     background-color: #DAA71F;
     margin-top: 10px;
 }
 
-.page-header .logo {
-    border: 1px dashed black;
+.container .logo {
     padding: 5px;
     width: 25%;
 }
 
-.page-header .links {
-    border: 1px dashed black;
+.container .links {
     padding: 5px;
     width: 50%;
     text-align: center;
 }
 
-.page-header .login {
+.container .login {
     border: 1px dashed black;
     padding: 5px;
     width: 25%;
     text-align: right;
 }
 
-.small-container{
-    width: 150px;
+.container.small-container{
     background-color: #EF82ED;
+    width: 750px;
+    height: 330px;
 }
