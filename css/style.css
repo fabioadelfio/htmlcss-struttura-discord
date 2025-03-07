@@ -29,12 +29,11 @@ ul li{
 /* UTILS */
 
 .container {
-    max-width: 1000px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 0px;
     padding-right: 0px;
-    border: 1px dashed black;
 }
 
 .wrapper {
@@ -43,10 +42,11 @@ ul li{
     min-height: 100vh;
 }
 
+/* HEADER */
+
 .section-header {
     background-color: #ADD8E7;
     height: 450px;
-    align-items: flex-start;
 }
 
 .page-header2 {
@@ -67,23 +67,75 @@ ul li{
 .container .logo {
     padding: 5px;
     width: 25%;
+    border: 2px dashed black;
 }
 
 .container .links {
     padding: 5px;
     width: 50%;
     text-align: center;
+    border: 2px dashed black;
 }
 
 .container .login {
-    border: 1px dashed black;
     padding: 5px;
     width: 25%;
     text-align: right;
+    border: 2px dashed black;
 }
 
 .container.small-container{
     background-color: #EF82ED;
     width: 750px;
     height: 330px;
+    border: 2px dashed black;
+}
+
+/* MAIN */
+
+.section-page {
+    height: 450px;
+    justify-content: center;
+    align-content: center;
+}
+
+.container.content {
+    height: 395px;
+    display: flex;
+}
+
+.blue{
+    width: 60%;
+    background-color: #1E90FF;
+    border: 2px dashed black;
+}
+
+.pink {
+    width: 40%;
+    background-color: #FFC0CA;
+    border: 2px dashed black;
+}
+
+.section-page.gray {
+    background-color: #D3D3D3;
+}
+
+.big-section {
+    height: 1000px;
+    background-color: #D3D3D3;
+    justify-content: center;
+    align-content: center;
+}
+
+.container.big-content {
+    background-color: #218B21;
+    height: 940px;
+    border: 2px dashed black;
+}
+
+/* FOOTER */
+
+.section-footer {
+    background-color: #23272A;
+    height: 1000px;
 }
